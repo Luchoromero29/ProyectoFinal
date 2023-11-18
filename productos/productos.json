@@ -1,15 +1,5 @@
 [
     {
-      "id": 1,
-      "tipo": "Procesador",
-      "marca": "Intel",
-      "modelo": "Core i9-11900K",
-      "precio": 29000,
-      "categoria": "Componentes",
-      "descripcion": "8 núcleos, 16 hilos, frecuencia base 3.5 GHz",
-      "Image": "imagenes/productos/Core i9-11900K.webp"
-    },
-    {
       "id": 2,
       "tipo": "Placa de Video",
       "marca": "AMD",
