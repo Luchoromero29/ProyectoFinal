@@ -8,17 +8,19 @@
     width: 90%;
     top: 90px;
     padding-bottom: 150px;
+    color: black;
 }
 
 .tarjeta-producto {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(255, 252, 252);
     border-radius: 10px;
     width: 350px;
     word-wrap: break-word;
     margin: auto;
-    box-shadow: 0px 1px 5px rgb(247, 254, 251);
+    box-shadow: 0px 0px 5px rgba(12, 12, 12, 0.788);
     display: flex;
     flex-direction: column;
+    color: black;
     gap: 10px;
     box-sizing: border-box;
     padding: 10px;
@@ -27,7 +29,7 @@
 }
 
 .tarjeta-producto h3 {
-    color: rgb(84, 232, 183);
+    color: rgb(0, 119, 255);
     margin: 0;
 }
 
@@ -54,24 +56,24 @@
     margin: auto;
 }
 
-.tarjeta-producto button{
+.tarjeta-button{
     background-color: rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
-    
+
     left: 0;
     right: 0;
     bottom: 10px;
     margin: auto;
     width: 60px;
     border-radius: 5px;
+    transition-duration: 0.3s;
 }
 
 .tarjeta-producto button:hover{
-    
-    outline: 1px solid white;
-    transition: 0.2s;
+    background-color: rgb(183, 204, 223);
 }
+
 
 .tarjeta-button img{
     max-width: 50px;

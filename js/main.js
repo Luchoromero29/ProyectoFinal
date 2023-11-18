@@ -173,7 +173,7 @@ function crearTarjeta(producto) {
         </div>
         <h4 class="precio">$${producto.precio} ARS</h4>
         <button id="tarjeta-button-agregar"  class="tarjeta-button"  type="button">
-            <img src="Icons/AgregarCarrito.png" alt="icon AgregarCarrito">
+            <img src="Icons/carritoAgregarCeleste.svg" alt="icon AgregarCarrito">
         </button>`
 
     tarjeta.setAttribute("class", "tarjeta-producto")
@@ -264,10 +264,10 @@ const crearTarjetaCarrito = () => {
                     </div>
                     <div class="carrito-botones">
                         <button class="button-sumarProducto" id="button-sumarProducto">
-                            <img src="Icons/sumar.png" alt="icon sumar">
+                            <img src="Icons/carritoSumar.svg" alt="icon sumar">
                         </button>
                         <button class="button-eliminarProducto" id="button-eliminarProducto">
-                            <img src="Icons/EliminarCarrito.png" alt="icon eliminar">
+                            <img src="Icons/carritoEliminar.svg" alt="icon eliminar">
                         </button>
                     </div>
                 </div>
