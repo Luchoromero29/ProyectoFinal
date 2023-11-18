@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Shop It</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="header-logo" id="header-logo">
+                <img src="imagenes/shopIT.png" alt="logo">
+            </a>
+            <div class="header-buscador">
+                <input type="text" id="buscador" placeholder="🔍︎ Buscar">
+                <button  id="button-buscador"> BUSCAR </button>
+            </div>
+            <div class="filtros">
+                <div class="filtros-marca">
+                    <span>Marca</span>
+                    <select name="filtros" id="filtro-marca" onchange="busqueda(buscador)">
+                        <option value="">Sin filtro</option>
+                        <option value="intel">Intel</option>
+                        <option value="amd">AMD</option>
+                        <option value="corsair">Corsair</option>
+                        <option value="lg">LG</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="logitech">Logitech</option>
+                        <option value="hyperx">Hyperx</option>
+                    </select>
+                </div>
+    
+                <div class="filtro-tipo">
+                    <span>Tipo</span>
+                    <select name="filtros" id="filtro-tipo" onchange="busqueda(buscador)">
+                        <option value="">Sin filtro</option>
+                        <option value="monitor">Monitores</option>
+                        <option value="teclado">Teclados</option>
+                        <option value="mouse">Mouse</option>
+                        <option value="procesador">Procesadores</option>
+                        <option value="placa de video">Placas de video</option>
+                    </select>
+                </div>
+            </div>
+            <div class="header-carrito">
+                <p>Carrito</p>
+                <button id="header-carrito-button">
+                    <img src="Icons/Carrito.png" alt="">
+                    <p id="header-contador" class="header-contadorCarrito">0</p>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="productos" id="productos">
+        
+    </div>
+
+    <div class="carrito" id="carrito">
+        <div id="carrito-productos" class="carrito-productos">
+        </div>
+        <div id="carrito-total" class="carrito-total">
+            <button id="carrito-pagar">Pagar</button>
+            <button id="carrito-borrar">Limpiar carrito</button>
+            <p id="carrito-precio-total">TOTAL: $0 ARS </p>
+        </div>
+    </div>
+
+    <!--
+
+        <footer class="footer">
+            <div class="container-footer">
+                <span>Hecho por Luciano Romero | SHOP IT Gaming</span>
+                <img src="imagenes/shopIT.png" alt="">
+            </div>
+        </footer>
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

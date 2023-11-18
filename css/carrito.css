@@ -1,0 +1,167 @@
+.carrito{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carrito-productos{
+    
+    width: 95%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+
+.carrito-tarjeta{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    height: max-content;
+    border-radius: 5px;
+}
+
+.carrito-responsive{
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    gap: 50px;
+    
+    
+}
+.carrito-tarjeta h3,h4,p{
+    margin: 0;
+}
+
+.carrito-info-producto{
+    width: 400px;
+}
+
+.carrito-imagen{
+    background-color: white;
+}
+
+.carrito-imagen img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.carrito-cantidades{
+    width: 200px;
+}
+
+.carrito-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+.carrito-botones button{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.carrito-botones img{
+    width: 30px;
+    height: 30px;
+}
+.carrito-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    background-color: rgb(59, 162, 128);
+    width: 95%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.carrito-total button{
+    padding: 8px;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.carrito-total p{
+
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(35, 35, 35);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:  600px){
+    .carrito-total button {
+        font-size: 80%;
+    }
+
+    .carrito-total p{
+        font-size: 80%;
+    }
+    .carrito-info-producto{
+        position: relative;
+        left: 22px;
+    }
+
+    .carrito-tarjeta{
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 90%;
+    }
+    .carrito-responsive{
+        gap: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 760px){
+    .carrito-tarjeta{
+        font-size: 90%;
+    }
+
+    .carrito-total button{
+        font-size: 90%;
+    }
+    .carrito-total p{
+        font-size: 90%;
+    }
+    .carrito-responsive{
+        gap:10px
+    }
+
+}

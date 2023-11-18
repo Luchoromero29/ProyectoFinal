@@ -1,0 +1,283 @@
+[
+    {
+      "id": 1,
+      "tipo": "Procesador",
+      "marca": "Intel",
+      "modelo": "Core i9-11900K",
+      "precio": 29000,
+      "categoria": "Componentes",
+      "descripcion": "8 núcleos, 16 hilos, frecuencia base 3.5 GHz",
+      "Image": "imagenes/productos/Core i9-11900K.webp"
+    },
+    {
+      "id": 2,
+      "tipo": "Placa de Video",
+      "marca": "AMD",
+      "modelo": "Radeon RX 6900 XT",
+      "precio": 75000,
+      "categoria": "Componentes",
+      "descripcion": "18 GB GDDR6, rendimiento de alta gama",
+      "Image": "imagenes/productos/Radeon RX 6900 XT.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Monitor",
+      "marca": "LG",
+      "modelo": "27GL83A-B",
+      "precio": 6000,
+      "categoria": "Periféricos",
+      "descripcion": "27 pulgadas, resolución 2K, 144 Hz",
+      "Image": "imagenes/productos/27GL83A-B.webp"
+    },
+    {
+      "id": 5,
+      "tipo": "Teclado",
+      "marca": "Corsair",
+      "modelo": "K95 RGB Platinum XT",
+      "precio": 9000,
+      "categoria": "Periféricos",
+      "descripcion": "Teclas mecánicas Cherry MX, retroiluminación RGB",
+      "Image": "imagenes/productos/K95 RGB Platinum XT.webp"
+    },
+    {
+      "id": 6,
+      "tipo": "Procesador",
+      "marca": "AMD",
+      "modelo": "Ryzen 7 5800X",
+      "precio": 24000,
+      "categoria": "Componentes",
+      "descripcion": "8 núcleos, 16 hilos, frecuencia base 3.8 GHz",
+      "Image": "imagenes/productos/Ryzen 7 5800X.webp"
+    },
+    {
+      "id": 7,
+      "tipo": "Placa de Video",
+      "marca": "NVIDIA",
+      "modelo": "GeForce RTX 3060 Ti",
+      "precio": 55000,
+      "categoria": "Componentes",
+      "descripcion": "8 GB GDDR6, trazado de rayos en tiempo real",
+      "Image": "imagenes/productos/GeForce RTX 3060 Ti.webp"
+    },
+    {
+      "id": 8,
+      "tipo": "Monitor",
+      "marca": "Acer",
+      "modelo": "Predator XB271HU",
+      "precio": 8500,
+      "categoria": "Periféricos",
+      "descripcion": "27 pulgadas, resolución 2K, 165 Hz",
+      "Image": "imagenes/productos/Predator XB271HU.webp"
+    },
+    {
+      "id": 9,
+      "tipo": "Mouse",
+      "marca": "Logitech",
+      "modelo": "G Pro Wireless",
+      "precio": 7000,
+      "categoria": "Periféricos",
+      "descripcion": "Diseño ambidiestro, sensor HERO",
+      "Image": "imagenes/productos/G Pro Wireless.webp"
+    },
+    {
+      "id": 11,
+      "tipo": "Procesador",
+      "marca": "Intel",
+      "modelo": "Core i7-11700K",
+      "precio": 27000,
+      "categoria": "Componentes",
+      "descripcion": "8 núcleos, 16 hilos, frecuencia base 3.6 GHz",
+      "Image": "imagenes/productos/Core i7-11700K.webp"
+    },
+    {
+      "id": 12,
+      "tipo": "Placa de Video",
+      "marca": "MSI",
+      "modelo": "GeForce RTX 3070",
+      "precio": 60000,
+      "categoria": "Componentes",
+      "descripcion": "8 GB GDDR6, diseño térmico avanzado",
+      "Image": "imagenes/productos/GeForce RTX 3070.webp"
+    },
+    {
+      "id": 13,
+      "tipo": "Monitor",
+      "marca": "Samsung",
+      "modelo": "Odyssey G7",
+      "precio": 10000,
+      "categoria": "Periféricos",
+      "descripcion": "32 pulgadas, resolución 2K, 240 Hz",
+      "Image": "imagenes/productos/Odyssey G7.webp"
+    },
+    {
+      "id": 14,
+      "tipo": "Mouse",
+      "marca": "HyperX",
+      "modelo": "Pulsefire FPS Pro",
+      "precio": 4500,
+      "categoria": "Periféricos",
+      "descripcion": "Sensor Pixart 3389, iluminación RGB",
+      "Image": "imagenes/productos/Pulsefire FPS Pro.webp"
+    },
+    {
+      "id": 16,
+      "tipo": "Procesador",
+      "marca": "AMD",
+      "modelo": "Ryzen 5 5600X",
+      "precio": 19000,
+      "categoria": "Componentes",
+      "descripcion": "6 núcleos, 12 hilos, frecuencia base 3.7 GHz",
+      "Image": "imagenes/productos/Ryzen 5 5600X.webp"
+    },
+    {
+      "id": 17,
+      "tipo": "Placa de Video",
+      "marca": "NVIDIA",
+      "modelo": "GeForce GTX 1660 Super",
+      "precio": 35000,
+      "categoria": "Componentes",
+      "descripcion": "6 GB GDDR5, alto rendimiento en juegos",
+      "Image": "imagenes/productos/GeForce GTX 1660 Super.webp"
+    },
+    {
+      "id": 19,
+      "tipo": "Mouse",
+      "marca": "Razer",
+      "modelo": "DeathAdder Elite",
+      "precio": 5200,
+      "categoria": "Periféricos",
+      "descripcion": "Sensor óptico 16,000 DPI, retroiluminación Chroma",
+      "Image": "imagenes/productos/DeathAdder Elite.webp"
+    },
+    {
+      "id": 20,
+      "tipo": "Teclado",
+      "marca": "Logitech",
+      "modelo": "G Pro X Mechanical Gaming",
+      "precio": 8500,
+      "categoria": "Periféricos",
+      "descripcion": "Teclas intercambiables, diseño compacto",
+      "Image": "imagenes/productos/G Pro X Mechanical Gaming.webp"
+    },
+    {
+      "id": 21,
+      "tipo": "Procesador",
+      "marca": "Intel",
+      "modelo": "Core i5-11600K",
+      "precio": 18000,
+      "categoria": "Componentes",
+      "descripcion": "6 núcleos, 12 hilos, frecuencia base 3.9 GHz",
+      "Image": "imagenes/productos/Core i5-11600K.webp"
+    },
+    {
+      "id": 22,
+      "tipo": "Placa de Video",
+      "marca": "AMD",
+      "modelo": "Radeon RX 6700 XT",
+      "precio": 55000,
+      "categoria": "Componentes",
+      "descripcion": "12 GB GDDR6, excelente rendimiento en 2K",
+      "Image": "imagenes/productos/Radeon RX 6700 XT.webp"
+    },
+    {
+      "id": 26,
+      "tipo": "Procesador",
+      "marca": "AMD",
+      "modelo": "Ryzen 3 3300X",
+      "precio": 12000,
+      "categoria": "Componentes",
+      "descripcion": "4 núcleos, 8 hilos, frecuencia base 3.8 GHz",
+      "Image": "imagenes/productos/Ryzen 3 3300X.webp"
+    },
+    {
+      "id": 27,
+      "tipo": "Placa de Video",
+      "marca": "NVIDIA",
+      "modelo": "GeForce GTX 1650 Super",
+      "precio": 30000,
+      "categoria": "Componentes",
+      "descripcion": "4 GB GDDR6, rendimiento para juegos",
+      "Image": "imagenes/productos/GeForce GTX 1650 Super.webp"
+    },
+    {
+      "id": 31,
+      "tipo": "Procesador",
+      "marca": "Intel",
+      "modelo": "Core i3-10100",
+      "precio": 11000,
+      "categoria": "Componentes",
+      "descripcion": "4 núcleos, 8 hilos, frecuencia base 3.6 GHz",
+      "Image": "imagenes/productos/Core i3-10100.webp"
+    },
+    {
+      "id": 32,
+      "tipo": "Placa de Video",
+      "marca": "AMD",
+      "modelo": "Radeon RX 5500 XT",
+      "precio": 22000,
+      "categoria": "Componentes",
+      "descripcion": "8 GB GDDR6, rendimiento en juegos",
+      "Image": "imagenes/productos/Radeon RX 5500 XT.webp"
+    },
+    {
+      "id": 33,
+      "tipo": "Monitor",
+      "marca": "Asus",
+      "modelo": "VG279Q",
+      "precio": 4000,
+      "categoria": "Periféricos",
+      "descripcion": "27 pulgadas, resolución Full HD, 144 Hz",
+      "Image": "imagenes/productos/VG279Q.webp"
+    },
+    {
+      "id": 34,
+      "tipo": "Mouse",
+      "marca": "Logitech",
+      "modelo": "G502 Hero",
+      "precio": 6000,
+      "categoria": "Periféricos",
+      "descripcion": "Sensor HERO 16K, 11 botones programables",
+      "Image": "imagenes/productos/G502 Hero.webp"
+    },
+    {
+      "id": 35,
+      "tipo": "Teclado",
+      "marca": "HyperX",
+      "modelo": "Alloy FPS Pro",
+      "precio": 4800,
+      "categoria": "Periféricos",
+      "descripcion": "Compacto, teclas mecánicas Cherry MX",
+      "Image": "imagenes/productos/Alloy FPS Pro.webp"
+    },
+    {
+      "id": 36,
+      "tipo": "Procesador",
+      "marca": "AMD",
+      "modelo": "Ryzen 9 3950X",
+      "precio": 40000,
+      "categoria": "Componentes",
+      "descripcion": "16 núcleos, 32 hilos, frecuencia base 3.5 GHz",
+      "Image": "imagenes/productos/Ryzen 9 3950X.webp"
+    },
+    {
+      "id": 37,
+      "tipo": "Placa de Video",
+      "marca": "NVIDIA",
+      "modelo": "GeForce GTX 1660",
+      "precio": 32000,
+      "categoria": "Componentes",
+      "descripcion": "6 GB GDDR5, rendimiento en juegos",
+      "Image": "imagenes/productos/GeForce GTX 1660.webp"
+    },
+    {
+      "id": 39,
+      "tipo": "Mouse",
+      "marca": "Corsair",
+      "modelo": "Harpoon RGB",
+      "precio": 3500,
+      "categoria": "Periféricos",
+      "descripcion": "Sensor óptico 6,000 DPI, diseño ergonómico",
+      "Image": "imagenes/productos/Harpoon RGB.webp"
+    }
+]
+  

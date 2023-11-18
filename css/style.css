@@ -1,0 +1,27 @@
+@import "header.css";
+@import "productos.css";
+@import "footer.css";
+@import "carrito.css";
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    
+}
+
+
+

@@ -1,0 +1,32 @@
+
+
+footer {
+    position: absolute ;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0px -2px 15px rgb(56, 211, 149);
+    
+}
+
+.container-footer span {
+    margin: auto;
+}
+
+.container-footer img {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(55, 233, 176);
+    max-width: 300px;
+}
